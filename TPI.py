@@ -4,25 +4,25 @@
 import csv
 import os
 
-# --- CONSTANTES ---
+# Constantes
 ARCHIVO_PAISES = "paises.csv"
 
-# --- VALIDACIONES ---
+# Validaciones
 def es_numero(valor):
-    """Valida si un string puede convertirse a entero positivo."""
+   
     return valor.isdigit() and int(valor) > 0
 
 def obtener_input_no_vacio(mensaje):
-    """Solicita un dato y asegura que no esté vacío."""
+   
     while True:
         valor = input(mensaje).strip()
         if valor:
             return valor
         print("Error: El campo no puede estar vacío.")
 
-# --- GESTIÓN DE ARCHIVOS ---
+# Gestión de archivos
 def cargar_datos():
-    """Lee el CSV y devuelve una lista de diccionarios."""
+    
     paises = []
 
     if not os.path.exists(ARCHIVO_PAISES):
@@ -44,8 +44,7 @@ def cargar_datos():
 
 
 def guardar_datos(paises):
-    """Guarda la lista completa en el CSV."""
-
+    
     with open(ARCHIVO_PAISES, mode="w", newline="", encoding="utf-8") as f:
         fieldnames = ["nombre", "poblacion", "superficie", "continente"]
 
@@ -55,7 +54,7 @@ def guardar_datos(paises):
         writer.writerows(paises)
 
 
-# --- ABM (Agregar, Buscar, Actualizar) ---
+#  Agregar, Buscar, Actualizar.
 def agregar_pais(paises):
 
     print("\n--- Agregar nuevo país ---")
