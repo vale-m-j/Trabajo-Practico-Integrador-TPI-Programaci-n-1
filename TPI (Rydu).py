@@ -287,3 +287,22 @@ def ordenar_superficie(paises):
             f"{pais['nombre']} - "
             f"{pais['superficie']}"
         )
+
+if __name__ == "__main__":
+
+    paises = [
+        {
+            "nombre": "Argentina",
+            "poblacion": 46000000,
+            "superficie": 2780400,
+            "continente": "America"
+        },
+        {
+            "nombre": "Brasil",
+            "poblacion": 215000000,
+            "superficie": 8515767,
+            "continente": "America"
+        }
+    ]
+
+    mostrar_estadisticas(paises)
