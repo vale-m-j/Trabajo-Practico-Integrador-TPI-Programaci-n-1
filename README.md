@@ -87,7 +87,7 @@ Japon,125800000,377975,Asia
 3. Ejecutar el programa:
 
 ```bash
-python nombre_del_archivo.py
+python TPI (Programación).py
 ```
 
 4. Utilizar el menú interactivo para acceder a las distintas funcionalidades.
