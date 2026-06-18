@@ -142,6 +142,7 @@ python TPI (Programación).py
 ## Video demostrativo
 
 Link al video:
+- [Ver Video Demostrativo en YouTube](https://youtu.be/K22zbIMVS1I )
 
 
 ---
@@ -149,13 +150,13 @@ Link al video:
 ## Documentación PDF
 
 Link al informe:
+- [Descargar Documentación en PDF](informe-tpi.pdf)
+
+
 
 
 ---
 
-## Repositorio
-
-Link al repositorio:
 
 
 ---
