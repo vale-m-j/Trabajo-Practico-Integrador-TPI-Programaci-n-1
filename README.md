@@ -150,6 +150,9 @@ Link al video:
 ## Documentación PDF
 
 Link al informe:
+- [Descargar Documentación en PDF](Trabajo Práctico Integrador (TPI) Gestión de Datos de Países en Python_ filtros, ordenamientos y estadísticas (1).pdf)
+
+
 
 
 ---
